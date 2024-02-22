@@ -1,0 +1,401 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Mabry Pro;
+  }
+  
+  header {
+    border-bottom: 2px solid black;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    background-color: #F5F5F5;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  
+  .logo img {
+    max-height: 50px; 
+    margin-left: 60px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+    display: flex;
+  }
+  
+  .the-gap {
+   margin-right: 60px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .nav-links a:hover {
+    color: #555;
+  }
+ .menu-icon{
+    display: none;
+ }
+  .hero-section {
+    display: flex;
+    height: 90vh;
+    min-height: 400px;
+
+  }
+
+  /* Added border on the right side */
+  .hero-left {
+    border-right: 2px solid black; 
+    background-color:#FEFE77;
+    padding-left: 60px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .hero-content h1 {
+    margin:0;
+    font-size: 45px;
+    font-weight: bold;
+    color: #292929;
+  }
+  .lisa{
+    font-weight: 900;
+    font-size: 60px;
+  }
+  .cta-button {
+    margin-top: 32px;
+    display: inline-block;
+    padding: 18px 32px;
+    font-size: 18px;
+    font-family: Mabry Pro;
+    font-weight: 700;
+    width: 196px;
+    height: 62px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #333;
+    background-color: #E0E0E0;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px #333;
+  }
+  
+  /*for animation on the button*/
+  .cta-button:hover { 
+    background-color: #FE7777;
+    box-shadow: 0 2px #666;
+    transform: translateY(4px); 
+  }
+  
+  .hero-right {
+    flex: 1;
+    width: 50%;
+    background-color: #f0f0f0; 
+    overflow: hidden;
+  }
+  
+  .hero-img {
+    width: 100%;
+    height: 100%; 
+    background-image: url(./imgs/Vision\ board-pana\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  
+  .projects-section {
+    height: 200px;
+    width: 100%;
+    background-color: #333; 
+    color: #E9E8E8; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .projects-content {
+    text-align: center;
+  }
+  
+  .projects-content h2 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    -webkit-text-stroke: 1px white; /* Made the text outline for WebKit browsers */
+    color: transparent; /* I had to make the text transparent */
+  }
+
+.work-section {
+    margin-top: 80px;
+  }
+
+.work{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    border-radius: 24px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.work-cont{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#feat{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #00A746;
+}
+#desc{
+    font-size: 20px;
+    margin-top: 32px;
+    margin-left: 20px;
+    color: #515050;
+}
+.work h3{
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+#hash{
+    margin-top: 80px;
+    margin-left: 20px;
+    color: #FE7777;
+}
+.work-img-mobile{
+    display: none;
+}
+.form-section {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #FFDCA8;
+  }
+  
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    height: 52px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  .footer-section {
+    background-color: #F5FFF9;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-left img {
+    max-height: 50px; 
+  }
+  
+  .footer-right {
+    display: flex;
+  }
+  
+  .social-link {
+    margin-right: 20px;
+  }
+  
+   /* i styled the social links */
+  .social-link img {
+    width: 30px;
+    height: auto;
+  }
+
+@media (max-width: 850px) {
+    .hero-content h1 {
+        font-size: 35px;
+      }
+    .lisa{
+        font-size: 48px;
+    }
+  }
+
+  /*this is the iphone 12 screen*/
+  @media (max-width: 390px) {
+ 
+    .logo img {
+        margin-left: 20px;
+      }
+      .nav-links{
+        display: none;
+        background-image: url(./imgs/quill_hamburger.png);
+        margin-left: 80px;
+      }
+      .menu-icon{
+        display: block;
+        cursor: pointer;
+        margin-right: 20px;
+      }
+      .menu-icon .bar {
+        width: 25px;
+        height: 3px;
+        background-color: black;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+    .the-gap {
+        margin-right: 16px;
+       }
+       
+    .hero-section{
+        height: auto;
+    }
+    .hero-left{
+        width: 100%;
+        padding-left: 20px;
+        border-right: none;
+    }
+    .hero-right{
+        display: none;
+    }
+    .projects-section{
+        height: 100px;
+    }
+    .projects-content h2 {
+        font-size: 40px;
+        margin: 0;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 6px;
+      }
+      .work-section {
+        margin-top: 40px;
+      }
+.work{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-radius: 24px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+    .work-img{
+        display: none;
+    }
+    .work-img-mobile{
+        display: block;
+        width: 100%;
+    }
+    .work h3{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 12px;
+    }
+    #feat{
+        margin-top: 20px;
+        margin-left: 12px;
+        color: #00A746;
+    }
+    #desc{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 12px;
+        margin-right: 12px;
+        color: #515050;
+    }
+    #hash{
+        margin-top: 20px;
+        margin-left: 12px;
+        color: #FE7777;
+  }
+  .form-section {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #FFDCA8;
+  }
+  .form-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .form-container h2 {
+    font-size: 36px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    height: 52px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  .cta-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .footer-container{
+    margin: 0 20px;
+  }
+  .social-link img {
+    width: 20px;
+    height: auto;
+  }
+  .footer-left img {
+    height: 20px; 
+  }
+}
